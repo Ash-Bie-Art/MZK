@@ -273,6 +273,10 @@ article .konten .konten-img {
   flex-direction: column;
 }
 
+main #biodata {
+  position: static;
+}
+
 /*footer*/
 
 .Footer {
