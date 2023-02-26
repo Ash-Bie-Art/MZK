@@ -16,7 +16,7 @@ body {
 /* nav bar */
 
 header {
-  background: #4850f0;
+  background: #005eeb;
 }
 
 header.navbar-container {
@@ -30,11 +30,11 @@ header.navbar-container {
   z-index: 999;
 }
 
-/* header.navbar-container .logo img {
-  width: 100px;
+header.navbar-container .logo img {
+  width: 250px;
   align-items: center;
   margin-inline: auto;
-} */
+}
 
 .logo {
   font-size: 10px;
@@ -70,7 +70,7 @@ header.navbar-container .isi-logo li:hover a {
   color: white;
 }
 
-/* beranda */
+
 main {
   margin-inline: auto;
   padding: 2rem 4rem;
@@ -80,7 +80,47 @@ main {
   align-items: center;
 }
 
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
 
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #2375cc;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social-media li {
+  list-style-type: none;
+}
+
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all .1s ease-in-out;
+}
+
+main aside.social-media li a:hover {
+  color: #4f73d6;
+}
+
+/* beranda */
 
 .beranda {
   display: flex;
@@ -90,6 +130,7 @@ main {
   width: 100%;
   justify-content: space-around;
   /* height: 600px; */
+  background: white;
 }
 
 .kiri-header {
@@ -121,4 +162,71 @@ main {
   height: 150px;
   padding: 10px;
   width: 250px;
+}
+
+/*Tentang*/
+
+article {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  flex: 1;
+ 
+  display: flex;
+  align-items: center;
+}
+
+article .konten {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+article .konten .konten-deskripsi {
+  flex: 1 1;
+}
+
+article .konten .konten-deskripsi .title {
+  font-size: 3.5rem;
+  margin-block: 1rem;
+}
+
+article .konten .konten-deskripsi p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  color: #6e92df;
+}
+
+article .konten .konten-img {
+  flex: 1;
+  display: flex;
+}
+
+.konten-img img{
+  margin: auto;
+  min-width: 250px;
+  width: 300px;
+}
+
+.title {
+  color: #1f1c7a;
+}
+
+
+/*footer*/
+
+.Footer {
+  background: #005eeb;
+  padding: 10px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.Footer P {
+  color: #fff;
+  font-size: 15px;
+  padding-bottom: 1px;
 }
