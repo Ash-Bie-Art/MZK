@@ -219,7 +219,7 @@ article .konten .konten-img {
 /*Identitas*/
 
 .identitas {
-  background-color: #e8f0f8;
+  /* background-color: #e8f0f8; */
   padding: 0 130px;
   height: 500px;
   margin-top: 90px;
@@ -274,7 +274,7 @@ article .konten .konten-img {
 }
 
 main #biodata {
-  position: static;
+  position: relative;
 }
 
 /*footer*/
@@ -292,4 +292,39 @@ main #biodata {
   color: #fff;
   font-size: 15px;
   padding-bottom: 1px;
+}
+
+/*reponsive*/
+
+@media screen and (max-width: 768px){
+  header .navbar-container {
+    flex-direction: column;
+  }
+
+  header .navbar-container .isi-logo ul {
+    flex-wrap: wrap;
+    column-gap: .5rem;
+  }
+
+  main {
+    padding: 1rem 3rem;
+  }
+
+  main .beranda {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  main .kiri-header {
+    font-size: 3rem;
+  }
+
+  main .kiri-header p {
+    font-size: 2rem;
+  }
+
+  main .kiri-header img {
+    order: -1;
+  }
+
 }
