@@ -86,6 +86,7 @@ main aside {
 
 .social-media {
   display: flex;
+  top: 50%;
 }
 
 .social-media ul {
