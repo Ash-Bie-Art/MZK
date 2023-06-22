@@ -86,8 +86,6 @@ main aside {
 
 .social-media {
   display: flex;
-  position: fixed;
-  top: 50%;
 }
 
 .social-media ul {
@@ -96,7 +94,8 @@ main aside {
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
   background-color: #2375cc;
-  
+  position: fixed;
+  top: 50%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
