@@ -96,6 +96,7 @@ main aside {
   background-color: #2375cc;
   position: fixed;
   top: 50%;
+  right: 0;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
