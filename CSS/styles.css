@@ -84,12 +84,12 @@ main aside {
   inset-inline-end: 0;
 }
 
-aside .social-media {
+.social-media {
   height: 100%;
   display: flex;
 }
 
-aside .social-media ul {
+.social-media ul {
   padding: 1.5rem 1rem;
   margin: auto;
   border-top-left-radius: 12px;
@@ -103,18 +103,18 @@ aside .social-media ul {
   gap: 1.5rem;
 }
 
-aside .social-media li {
+.social-media li {
   list-style-type: none;
 }
 
-aside .social-media li a {
+.social-media li a {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
   transition: all .1s ease-in-out;
 }
 
-aside.social-media li a:hover {
+.social-media li a:hover {
   color: #4f73d6;
 }
 
